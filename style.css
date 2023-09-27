@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Mono", monospace;
+}
+
+img {
+  object-fit: cover;
+}
+
+p {
+  max-width: 768px;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.x-center {
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .center {
+    text-align: center;
+  }
+
+  .full-height-res {
+    height: 100vh;
+  }
+}
